@@ -67,7 +67,7 @@ function main() {
   // objects we'll be drawing.
   const buffers = initBuffers(gl);
   
-  const texture = loadTexture(gl, 'cubetexture.png');
+  const texture = loadTexture(gl, 'IMG20191112124148 (2).jpg');
 
   var then = 0;
 
