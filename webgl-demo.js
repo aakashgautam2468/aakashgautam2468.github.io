@@ -66,6 +66,8 @@ function main() {
   // Here's where we call the routine that builds all the
   // objects we'll be drawing.
   const buffers = initBuffers(gl);
+  
+  const texture = loadTexture(gl, 'cubetexture.png');
 
   var then = 0;
 
